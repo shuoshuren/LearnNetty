@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.xc.netty'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile "io.netty:netty-all:4.1.10.Final"
+    testCompile 'junit:junit:4.12'
+}
